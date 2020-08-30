@@ -35,6 +35,12 @@ case $LINK in
     STATIC) CMAKE_OPTS="$CMAKE_OPTS -DBUILD_SHARED_LIBS=OFF -DBUILD_STATIC_LIBS=ON";;
 esac
 
+BITNESS=${BITNESS:-32}
+case $BITNESS in
+    32) CMAKE_OPTS="$CMAKE_OPTS -DBUILD_32BIT=ON";;
+    64) CMAKE_OPTS="$CMAKE_OPTS -DBUILD_32BIT=OFF";;
+esac
+
 # Prefer ninja over make, if it is available
 if command -v ninja >/dev/null; then
   CMAKE_OPTS="-G Ninja $CMAKE_OPTS"
