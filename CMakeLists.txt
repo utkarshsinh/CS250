@@ -108,6 +108,11 @@ function(build path target)
     # Add patched defines
     target_compile_definitions(${target}_patched PUBLIC ${patch_defs})
 
+    # Add 64bit defines
+    if(NOT BUILD_32BIT)
+        target_compile_definitions(${target} PUBLIC -DBIT64)
+    endif()
+
     target_link_libraries(${target} LINK_PUBLIC cgc)
     target_link_libraries(${target}_patched LINK_PUBLIC cgc)
 
