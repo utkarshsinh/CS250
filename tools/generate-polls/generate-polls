@@ -53,7 +53,7 @@ def verify_node(node):
 
 def get_graph(machine, filename):
     with open(filename, 'r') as graph_fh:
-        states = yaml.load(graph_fh)
+        states = yaml.load(graph_fh, Loader=yaml.FullLoader)
 
     assert len(states) == 2
     assert 'nodes' in states
