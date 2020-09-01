@@ -1,4 +1,9 @@
-set(cgc_src libcgc.c maths.S)
+if(BUILD_32BIT)
+    set(cgc_src libcgc.c maths32.S)
+else()
+    set(cgc_src libcgc.c maths64.S)
+endif()
+
 if(WIN32)
     set(cgc_src libcgc_win.c maths_win.asm)
     set_source_files_properties(maths_win.asm PROPERTIES COMPILE_FLAGS "/safeseh")

@@ -203,15 +203,15 @@ END SYM(cgc_significand)
 
 ENTER SYM(cgc_scalbn)
 SYM(cgc_scalbnl):
-    fildl   16(%esp)
-    fldt    4(%esp)
+    fildl   16(%rsp)
+    fldt    4(%rsp)
     jmp     1f
 SYM(cgc_scalbnf):
-    fildl   8(%esp)
+    fildl   8(%rsp)
     flds    4(%rsp)
     jmp     1f
 SYM(cgc_scalbn):
-    fildl   12(%esp)
+    fildl   12(%rsp)
     fldl    4(%rsp)
 1:
     fscale
@@ -365,10 +365,7 @@ SYM(cgc_setjmp):
     movl    4(%esp), %ecx
     movl    0(%esp), %edx
     movl    %edx, 0(%ecx)
-    movl    %ebx, 4(%ecx)
-    movl    %esp, 8(%ecx)
-    movl    %ebp, 12(%ecx)
-    movl    %esi, 16(%ecx)
+    movl    %ebx, 4(%ecx)esp
     movl    %edi, 20(%ecx)
     xorl    %eax, %eax
     ret
