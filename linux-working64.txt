@@ -18,6 +18,7 @@ COLLIDEOSCOPE
 cotton_swab_arithmetic
 CTTP
 cyber_blogger
+Differ
 Dive_Logger
 Divelogger2
 Dungeon_Master
