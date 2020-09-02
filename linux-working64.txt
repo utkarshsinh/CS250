@@ -44,6 +44,7 @@ HIGHCOO
 Hug_Game
 KKVS
 LMS
+Loud_Square_Instant_Messaging_Protocol_LSIMP
 Matchmaker
 Mathematical_Solver
 Multi_Arena_Pursuit_Simulator
