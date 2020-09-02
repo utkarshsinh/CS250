@@ -3,6 +3,7 @@ Barcoder
 basic_emulator
 BIRC
 BitBlaster
+Bloomy_Sunday
 Board_Game
 Budg_IT
 CableGrind
