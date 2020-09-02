@@ -25,6 +25,7 @@ Dungeon_Master
 ECM_TCM_Simulator
 Eddy
 Email_System_2
+Enslavednode_chat
 expression_database
 Flash_File_System
 Flight_Routes
