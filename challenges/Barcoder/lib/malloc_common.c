@@ -89,8 +89,13 @@ static void *cgc_run_alloc(malloc_t *heap, int type)
         cgc_deallocate((void *)(alignedi + RUN_SIZE), (addri + RUN_SIZE * 2) - (alignedi + RUN_SIZE));
 
     /* add run to mem_map */
-    DBG_ASSERT(heap->mem_map[alignedi / RUN_SIZE] == MM_UNALLOCATED);
-    heap->mem_map[alignedi / RUN_SIZE] = type;
+    #ifdef BIT64
+        DBG_ASSERT(heap->mem_map[(alignedi & UINT32_MAX) / RUN_SIZE] == MM_UNALLOCATED);
+        heap->mem_map[(alignedi & UINT32_MAX)/ RUN_SIZE] = type;
+    #else
+        DBG_ASSERT(heap->mem_map[alignedi / RUN_SIZE] == MM_UNALLOCATED);
+        heap->mem_map[alignedi / RUN_SIZE] = type;
+    #endif
 
     /* return the aligned memory block */
     return (void *)alignedi;
@@ -394,7 +399,11 @@ void *cgc_malloc_alloc(malloc_t *heap, cgc_size_t n)
 
 void malloc_free(malloc_t *heap, void *ptr)
 {
-    int type = heap->mem_map[(uintptr_t)ptr / RUN_SIZE];
+    #ifdef BIT64
+        int type = heap->mem_map[((uintptr_t)ptr & UINT32_MAX) / RUN_SIZE];
+    #else
+        int type = heap->mem_map[(uintptr_t)ptr / RUN_SIZE];
+    #endif
 
     if (ptr == NULL)
         return;
@@ -421,7 +430,11 @@ void malloc_free(malloc_t *heap, void *ptr)
 /* returns size available to user */
 cgc_size_t cgc_malloc_size(malloc_t *heap, void *ptr)
 {
-    int type = heap->mem_map[(uintptr_t)ptr / RUN_SIZE];
+    #ifdef BIT64
+        int type = heap->mem_map[((uintptr_t)ptr & UINT32_MAX) / RUN_SIZE];
+    #else
+        int type = heap->mem_map[(uintptr_t)ptr / RUN_SIZE];
+    #endif
 
     if (type == MM_SMALL || type == MM_UNALLOCATED)
     {
