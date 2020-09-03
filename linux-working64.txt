@@ -47,6 +47,7 @@ LMS
 Loud_Square_Instant_Messaging_Protocol_LSIMP
 Matchmaker
 Mathematical_Solver
+Movie_Rental_Service_Redux
 Multi_Arena_Pursuit_Simulator
 Multicast_Chat_Server
 Music_Store_Client
