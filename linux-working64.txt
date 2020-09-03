@@ -64,6 +64,7 @@ Pac_for_Edges
 Packet_Analyzer
 Packet_Receiver
 Palindrome2
+Pattern_Finder
 PCM_Message_decoder
 Personal_Fitness_Manager
 PRU
