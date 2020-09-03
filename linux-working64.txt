@@ -50,6 +50,7 @@ Mathematical_Solver
 Movie_Rental_Service_Redux
 Multi_Arena_Pursuit_Simulator
 Multicast_Chat_Server
+Multipass
 Music_Store_Client
 No_Paper._Not_Ever._NOPE
 On_Sale
