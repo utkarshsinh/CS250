@@ -13,8 +13,13 @@ typedef unsigned int uint32_t;
 typedef unsigned long long int uint64_t;
 typedef unsigned long long int uintmax_t;
 
-typedef int intptr_t;
-typedef unsigned int uintptr_t;
+#ifdef BIT64
+    typedef long long int intptr_t;
+    typedef unsigned long long int uintptr_t;
+#else
+    typedef int intptr_t;
+    typedef unsigned int uintptr_t;
+#endif
 
 /* Minimum of signed integral types.  */
 #define INT8_MIN       (-128)
