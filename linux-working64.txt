@@ -85,6 +85,7 @@ SCUBA_Dive_Logging
 Secure_Compression
 SFTSCBSISS
 Shortest_Path_Tree_Calculator
+ShoutCTF
 SIGSEGV
 Simple_Stack_Machine
 Snail_Mail
