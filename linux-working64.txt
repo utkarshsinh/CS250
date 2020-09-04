@@ -94,6 +94,7 @@ SLUR_reference_implementation
 Snail_Mail
 SOLFEDGE
 Space_Attackers
+Square_Rabbit
 stack_vm
 Stock_Exchange_Simulator
 stream_vm
