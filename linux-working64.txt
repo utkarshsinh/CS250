@@ -90,6 +90,7 @@ SIGSEGV
 Simple_Stack_Machine
 simplenote
 simpleOCR
+SLUR_reference_implementation
 Snail_Mail
 SOLFEDGE
 stack_vm
