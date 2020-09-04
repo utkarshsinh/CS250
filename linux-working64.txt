@@ -115,4 +115,5 @@ Virtual_Machine
 virtual_pet
 WhackJack
 WordCompletion
+XStore
 yolodex
