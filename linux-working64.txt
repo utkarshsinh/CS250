@@ -93,6 +93,7 @@ simpleOCR
 SLUR_reference_implementation
 Snail_Mail
 SOLFEDGE
+Space_Attackers
 stack_vm
 Stock_Exchange_Simulator
 stream_vm
