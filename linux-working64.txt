@@ -77,6 +77,7 @@ Rejistar
 Resort_Modeller
 root64_and_parcour
 router_simulator
+Sad_Face_Template_Engine_SFTE
 Sample_Shipgame
 Scrum_Database
 SCUBA_Dive_Logging
