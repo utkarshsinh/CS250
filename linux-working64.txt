@@ -88,6 +88,7 @@ Shortest_Path_Tree_Calculator
 ShoutCTF
 SIGSEGV
 Simple_Stack_Machine
+simplenote
 Snail_Mail
 SOLFEDGE
 stack_vm
