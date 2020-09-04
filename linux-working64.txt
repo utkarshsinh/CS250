@@ -82,6 +82,7 @@ Sample_Shipgame
 SAuth
 Scrum_Database
 SCUBA_Dive_Logging
+Secure_Compression
 SFTSCBSISS
 Shortest_Path_Tree_Calculator
 SIGSEGV
