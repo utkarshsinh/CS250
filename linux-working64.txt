@@ -98,6 +98,7 @@ Square_Rabbit
 stack_vm
 Stock_Exchange_Simulator
 stream_vm
+stream_vm2
 Street_map_service
 String_Info_Calculator
 TAINTEDLOVE
