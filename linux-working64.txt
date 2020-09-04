@@ -75,6 +75,7 @@ RAM_based_filesystem
 Recipe_Database
 Rejistar
 Resort_Modeller
+root64_and_parcour
 router_simulator
 Sample_Shipgame
 Scrum_Database
