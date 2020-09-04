@@ -89,6 +89,7 @@ ShoutCTF
 SIGSEGV
 Simple_Stack_Machine
 simplenote
+simpleOCR
 Snail_Mail
 SOLFEDGE
 stack_vm
