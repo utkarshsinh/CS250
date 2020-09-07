@@ -430,7 +430,7 @@ void malloc_free(malloc_t *heap, void *ptr)
 /* returns size available to user */
 cgc_size_t cgc_malloc_size(malloc_t *heap, void *ptr)
 {
-    #ifdef
+    #ifdef BIT64
         int type = heap->mem_map[((uintptr_t)ptr & UINT32_MAX) / RUN_SIZE];
     #else
         int type = heap->mem_map[(uintptr_t)ptr / RUN_SIZE];
