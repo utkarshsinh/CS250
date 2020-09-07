@@ -365,7 +365,7 @@ SYM(cgc_setjmp):
     movl    4(%esp), %ecx
     movl    0(%esp), %edx
     movl    %edx, 0(%ecx)
-    movl    %ebx, 4(%ecx)esp
+    movl    %ebx, 4(%ecx)
     movl    %edi, 20(%ecx)
     xorl    %eax, %eax
     ret
