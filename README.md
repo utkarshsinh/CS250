@@ -62,8 +62,9 @@ sudo pip install xlsxwriter pycrypto defusedxml pyyaml matplotlib
 Then to build all challenges, run:
 
 ```bash
-$ ./build.sh
+$ BITNESS=64 ./build.sh
 ```
+Here, we build 64-bit binaries, because many tools we are using work the best for 64-bit binaries.
 
 If you are **absolutely certain** that you don't intend to use any of the Python components of the
 build or repository, you can tell the build script to ignore them:
