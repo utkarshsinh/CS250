@@ -56,11 +56,8 @@
 
 ENTER SYM(cgc_sin)
 SYM(cgc_sinl):
-    movq    %xmm0, -16(%rsp)
-    fldt    -16(%rsp)
+    fldt    8(%rsp)
     call    internal_sin
-    fstpt   -16(%rsp)
-    movq    -16(%rsp), %xmm0
     ret
 
 SYM(cgc_sinf):
@@ -94,11 +91,8 @@ END SYM(cgc_sin)
 
 ENTER SYM(cgc_cos)
 SYM(cgc_cosl):
-    movq    %xmm0, -16(%rsp)
-    fldt    -16(%rsp)
+    fldt    8(%rsp)
     call    internal_cos
-    fstpt   -16(%rsp)
-    movq    -16(%rsp), %xmm0
     ret
 
 SYM(cgc_cosf):
@@ -131,11 +125,8 @@ END SYM(cgc_cos)
 
 ENTER SYM(cgc_tan)
 SYM(cgc_tanl):
-    movq    %xmm0, -16(%rsp)
-    fldt    -16(%rsp)
+    fldt    8(%rsp)
     call    internal_tan
-    fstpt   -16(%rsp)
-    movq    -16(%rsp), %xmm0
     ret
 
 SYM(cgc_tanf):
@@ -184,13 +175,9 @@ SYM(cgc_twopi_rem):
 
 ENTER SYM(cgc_remainder)
 SYM(cgc_remainderl):
-    movq    %xmm0, -16(%rsp)
-    movq    %xmm1, -32(%rsp)
-    fldt    -32(%rsp)
-    fldt    -16(%rsp)
+    fldt    24(%rsp)
+    fldt    8(%rsp)
     call    internal_remainder
-    fstpt   -16(%rsp)
-    movq    -16(%rsp), %xmm0
     ret
 
 SYM(cgc_remainderf):
@@ -214,6 +201,7 @@ SYM(cgc_remainder):
     ret
 
 internal_remainder:
+1:
     fprem1
     fstsw   %ax
     sahf
@@ -224,11 +212,8 @@ END SYM(cgc_remainder)
 
 ENTER SYM(cgc_log)
 SYM(cgc_logl):
-    movq    %xmm0, -16(%rsp)
-    fldt    -16(%rsp)
+    fldt    8(%rsp)
     call    internal_log
-    fstpt   -16(%rsp)
-    movq    -16(%rsp), %xmm0
     ret
 
 SYM(cgc_logf):
@@ -256,11 +241,8 @@ END SYM(cgc_log)
 
 ENTER SYM(cgc_log10)
 SYM(cgc_log10l):
-    movq    %xmm0, -16(%rsp)
-    fldt    -16(%rsp)
+    fldt    8(%rsp)
     call    internal_log10
-    fstpt   -16(%rsp)
-    movq    -16(%rsp), %xmm0
     ret
 
 SYM(cgc_log10f):
@@ -288,8 +270,7 @@ END SYM(cgc_log10)
 
 ENTER SYM(cgc_significand)
 SYM(cgc_significandl):
-    movq    %xmm0, -16(%rsp)
-    fldt    -16(%rsp)
+    fldt    8(%rsp)
     call    internal_significand
     fstpt   -16(%rsp)
     movq    -16(%rsp), %xmm0
@@ -319,19 +300,30 @@ END SYM(cgc_significand)
 
 ENTER SYM(cgc_scalbn)
 SYM(cgc_scalbnl):
-    int3
-    movq    %xmm0, -16(%rsp)
-    fildl   16(%rsp)
-    fldt    4(%rsp)
-    jmp     1f
+    mov     %edi, -4(%rsp)
+    fildl   -4(%rsp)
+    fldt    8(%rsp)
+    call    internal_scalbn
+    ret
 SYM(cgc_scalbnf):
-    fildl   8(%rsp)
-    flds    4(%rsp)
-    jmp     1f
+    movss   %xmm0, -4(%rsp)
+    mov     %edi, -8(%rsp)
+    fildl   -8(%rsp)
+    flds    -4(%rsp)
+    call    internal_scalbn
+    fstps   -4(%rsp)
+    movss   -4(%rsp), %xmm0
+    ret
 SYM(cgc_scalbn):
-    fildl   12(%rsp)
-    fldl    4(%rsp)
-1:
+    movsd   %xmm0, -8(%rsp)
+    mov     %edi, -12(%rsp)
+    fildl   -12(%rsp)
+    fldl    -8(%rsp)
+    call    internal_scalbn
+    fstpl   -8(%rsp)
+    movsd   -8(%rsp), %xmm0
+    ret
+internal_scalbn:
     fscale
     fstp    %st(1)
     ret
@@ -339,11 +331,25 @@ END SYM(cgc_scalbn)
 
 ENTER SYM(cgc_scalbln)
 SYM(cgc_scalblnl):
-    jmp     SYM(cgc_scalbnl)
+    int3
+    mov     %rdi, -8(%rsp)
+    fildll  -8(%rsp)
+    fldt    8(%rsp)
+    call    internal_scalbn
+    ret
 SYM(cgc_scalblnf):
+    int3
     jmp     SYM(cgc_scalbnf)
 SYM(cgc_scalbln):
-    jmp     SYM(cgc_scalbn)
+    int3
+    movsd   %xmm0, -8(%rsp)
+    mov     %rdi, -16(%rsp)
+    fildll  -16(%rsp)
+    fldl    -8(%rsp)
+    call    internal_scalbn
+    fstpl   -8(%rsp)
+    movsd   -8(%rsp), %xmm0
+    ret
 END SYM(cgc_scalbln)
 
 ENTER SYM(cgc_rint)
@@ -516,13 +522,9 @@ END SYM(cgc_exp2)
 
 ENTER SYM(cgc_pow)
 SYM(cgc_powl):
-    movq    %xmm0, -16(%rsp)
-    movq    %xmm1, -32(%rsp)
-    fldt    -32(%rsp)
-    fldt    -16(%rsp)
+    fldt    24(%rsp)
+    fldt    8(%rsp)
     call    internal_pow
-    fstpt   -16(%rsp)
-    movq    -16(%rsp), %xmm0
     ret
 SYM(cgc_powf):
     movss   %xmm0, -8(%rsp)
@@ -549,14 +551,24 @@ END SYM(cgc_pow)
 
 ENTER SYM(cgc_exp)
 SYM(cgc_expl):
-    fldt    4(%rsp)
-    jmp     1f
+    fldt    8(%rsp)
+    call    internal_exp
+    ret
 SYM(cgc_expf):
-    flds    4(%rsp)
-    jmp     1f
+    movss   %xmm0, -4(%rsp)
+    flds    -4(%rsp)
+    call    internal_exp
+    fstps   -4(%rsp)
+    movss   -4(%rsp), %xmm0
+    ret
 SYM(cgc_exp):
-    fldl    4(%rsp)
-1:
+    movsd   %xmm0, -8(%rsp)
+    fldl    -8(%rsp)
+    call    internal_exp
+    fstpl   -8(%rsp)
+    movsd   -8(%rsp), %xmm0
+    ret
+internal_exp:
     fldl2e
     fmulp
     jmp     SYM(cgc_exp2x)
@@ -565,10 +577,11 @@ END SYM(cgc_exp)
 .global SYM(cgc_setjmp)
 .type SYM(cgc_setjmp), @function
 SYM(cgc_setjmp):
-    movl    4(%esp), %ecx
-    movl    0(%esp), %edx
-    movl    %edx, 0(%ecx)
-    movl    %ebx, 4(%ecx)
+    int3
+    mov     4(%esp), %ecx
+    mov     0(%esp), %rdx
+    mov     %rdx, 0(%rdi)
+    mov    %rbx, 4(%rdi)
     movl    %edi, 20(%ecx)
     xorl    %eax, %eax
     ret
@@ -577,6 +590,7 @@ SYM(cgc_setjmp):
 .global SYM(cgc_longjmp)
 .type SYM(cgc_longjmp), @function
 SYM(cgc_longjmp):
+    int3
     movl    4(%esp), %edx
     movl    8(%esp), %eax
     movl    0(%edx), %ecx
