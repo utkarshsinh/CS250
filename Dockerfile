@@ -1,14 +1,17 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
-RUN apt update \
-  && apt -y upgrade \
-  && apt install -y build-essential libc6-dev libc6-dev-i386 \
-    gcc-multilib g++-multilib clang python python-pip cmake
-RUN pip install xlsxwriter pycrypto defusedxml pyyaml matplotlib
+# Set the timezone to UTC by default
+ENV TZ=UTC
 
-WORKDIR /cb-multios
-COPY . ./
+# Update the system and install required packages
+RUN apt-get update && \
+    apt-get install -y \
+        build-essential \
+        python3 \
+        python3-pip \
+        git && \
+    rm -rf /var/lib/apt/lists/*
 
-#RUN ["/bin/bash", "BITNESS=64 ./build.sh"]
+# Install required Python packages
+RUN pip3 install numpy scipy matplotlib
 
-ENTRYPOINT "/bin/bash"

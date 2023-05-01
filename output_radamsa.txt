@@ -1,0 +1,635 @@
+Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_100.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_10.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_11.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_12.bin
+Accel:-$ 
+Accel:-$ 
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_13.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_14.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_15.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_16.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_17.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_18.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_19.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_1.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_20.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_21.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_22.bin
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_23.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_24.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_25.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_26.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_27.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_28.bin
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_29.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_2.bin
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_30.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_31.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_32.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_33.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_34.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_35.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_36.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_37.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_38.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_39.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_3.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_40.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_41.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_42.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_43.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_44.bin
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_45.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_46.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_47.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_48.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_49.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_4.bin
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ 
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_50.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_51.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_52.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_53.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_54.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_55.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_56.bin
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_57.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_58.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_59.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_5.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_60.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_61.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_62.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_63.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_64.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_65.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_66.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_67.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_68.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_69.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_6.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_70.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_71.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_72.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_73.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_74.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_75.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_76.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_77.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_78.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_79.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_7.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_80.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_81.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_82.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_83.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_84.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_85.bin
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_86.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_87.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_88.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_89.bin
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_8.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_90.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_91.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_92.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_93.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_94.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_95.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_96.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_97.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_98.bin
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_99.bin
+Accel:-$ Bad input
+Accel:-$ Bad input
+Accel:-$ Running test case: /home/utkarshsinh/cb-multios/output_radamsa/test_case_9.bin
+Accel:-$ Bad input
+Accel:-$ 
